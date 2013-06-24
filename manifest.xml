@@ -1,0 +1,25 @@
+<package>
+  <description brief="Robo50 ROS driver node">
+
+	ROS bindings for the Robo50 
+
+	This is based on the Turtlebot Node.
+     
+  </description>
+  <author>Dominik Egger</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/robo50_node</url>
+  <depend package="rospy"/>
+  <depend package="tf"/>
+  <depend package="nav_msgs"/>
+  <depend package="geometry_msgs"/>
+  <depend package="diagnostic_msgs"/>
+  <depend package="kdl"/>
+  <depend package="dynamic_reconfigure"/>
+  <export>
+    <rosdoc config="rosdoc.yaml" />
+  </export>
+  <rosdep name="daemontools"/>
+
+</package>

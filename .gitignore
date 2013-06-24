@@ -1,0 +1,15 @@
+.project
+.pydevproject
+.cproject
+
+/devel
+/gtest
+/catkin*
+
+/*_gen/
+*.cfgc
+*.pyc
+
+ROS_NOBUILD
+CATKIN_IGNORE
+cmake_install.cmake

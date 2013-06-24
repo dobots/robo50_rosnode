@@ -1,0 +1,4 @@
+uint8 motor_id
+int8 speed
+---
+bool done
